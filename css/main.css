@@ -1,0 +1,53 @@
+body, html {
+  height: 100vh;
+  /* ::-webkit-scrollbar{
+         width: 12px;
+     }
+     ::-webkit-scrollbar-thumb{
+         background: linear-gradient(transparent, #30ff00);
+         border-radius: 10px;
+     }
+     ::-webkit-scrollbar-thumb:hover{
+         background: linear-gradient(transparent, #c3cfc1);
+         border-radius: 10px;
+     }
+
+  */
+  /*  background-color #861657;
+  background-image linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+   */
+}
+body ::-webkit-scrollbar, html ::-webkit-scrollbar {
+  width: 12px;
+}
+body ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+  border-radius: 5px;
+}
+body ::-webkit-scrollbar-thumb:hover, html ::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(153deg, #52ACFF 33%, #FFE32C 100%);
+  border-radius: 10px;
+}
+
+body {
+  background: #212123;
+  color: #fff;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 80% auto;
+  margin: 0;
+}
+body main p {
+  overflow: auto;
+  margin: 1em;
+  padding: 1em;
+  background: #2d2d30;
+  border-radius: 10px;
+  opacity: 0.4;
+  font-size: 0.9em;
+}
+body aside {
+  background-color: #2d2d30;
+}
+
+/*# sourceMappingURL=main.css.map */
